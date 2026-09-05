@@ -1,6 +1,6 @@
-// 1. Dynamic Typing Effect for Hero Subtitle
+// Dynamic Typing Effect for Hero Subtitle
 const textElement = document.querySelector('.hero-content h2');
-const textArray = ["Frontend Web Developer", "CSE Student", "C++ Programmer"];
+const textArray = ["Frontend Web Developer", "CSE Student", "Programmer"];
 let textIndex = 0;
 let charIndex = 0;
 
@@ -31,8 +31,7 @@ document.addEventListener("DOMContentLoaded", () => {
     typeEffect();
 });
 
-
-// 2. Active Navbar Link on Scroll
+// Active Navbar Link on Scroll
 const sections = document.querySelectorAll("section");
 const navLinks = document.querySelectorAll(".nav-links a");
 
