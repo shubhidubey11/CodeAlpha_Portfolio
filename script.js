@@ -1,6 +1,6 @@
 // Dynamic Typing Effect for Hero Subtitle
 const textElement = document.querySelector('.hero-content h2');
-const textArray = ["Frontend Web Developer", "CSE Student", "Programmer"];
+const textArray = ["Web Developer", "Programmer"];
 let textIndex = 0;
 let charIndex = 0;
 
